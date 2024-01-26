@@ -1,0 +1,23 @@
+.inputItems{
+    height: 20px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+input{
+    border: none;
+    margin-right: 20px;
+    width: 57%;
+}
+input::placeholder{
+    
+}
+button{
+    color: white;
+    width: 10%;
+    background-color: #0066ff;
+    border: none;
+    font-size: 18px;
+}

@@ -39,11 +39,13 @@ export default function App() {
           handleChange={handleChange}
           handleTodo={handleTodo}
         />
-        <Todolist
-          todo={todo}
-          handleCheckbox={handleCheckbox}
-          handleDelete={handleDelete}
-        />
+        <div className="box2">
+          <Todolist
+            todo={todo}
+            handleCheckbox={handleCheckbox}
+            handleDelete={handleDelete}
+          />
+        </div>
       </div>
     </>
   );

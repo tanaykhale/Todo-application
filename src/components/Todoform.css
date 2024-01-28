@@ -8,10 +8,17 @@
 }
 input{
     border: none;
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
     margin-right: 20px;
     width: 57%;
+    border-bottom: 1px solid black;
+    
 }
 input::placeholder{
+    text-align: center;
+    font-size: x-large;
     
 }
 button{

@@ -1,3 +1,5 @@
+import "./Todoform.css";
+
 export default function Todoform({ tasks, handleChange, handleTodo }: any) {
   return (
     <>
